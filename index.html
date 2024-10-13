@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Калькулятор Металла</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" media="all" href="/assets/application-61a3afe1315e3196119f2d154ea10bb6850372c635e0339e976efddeb1bb26ad.css" />
+		  <link rel="stylesheet" media="screen" href="/assets/app/partner-20590e2ce2ffa3fa1b43955b21efca2e6fe3f0a05b225f0ffb6a8be2b4ea93ae.css" />	
+	<script type="text/javascript">
+		var _isDevEnv = false;		
+		var _isStageEnv = false;
+		var _enableOffers = false;
+	</script>
+
+	<style type="text/css">
+
+		/*
+		 * Main theme
+		 */
+
+
+		/* licanse form */
+		.license-form-logo{
+		}
+		.btn-license{			
+		}
+
+		/* header */
+		.app-header {
+			background: rgba(28, 79, 130, 1);
+		}
+
+		/* sidebar */
+		.section{
+			background: rgba(28, 79, 130, 0.03);
+		}
+		.section-nav li.active a,
+		.section-nav li a,
+		.section-nav li a:hover, 
+		.calc-togler {
+			color: rgba(28, 79, 130, 1);			
+		}
+		.section-nav li a:hover{
+			background: rgba(28, 79, 130, 0.05);			
+		}		
+		.section-nav li.active a{
+			background: rgba(28, 79, 130, 0.07);			
+			opacity: 1;
+		}
+		.section-nav li a{
+			opacity: 0.8;
+		}
+
+		/* common elements */
+		.btn-link {
+			background: rgba(28, 79, 130, 0.2);
+			color: rgba(28, 79, 130, 1);
+		}
+		.btn-link:hover {
+			background: rgba(28, 79, 130, 0.3);
+			color: rgba(28, 79, 130, 1);
+		}
+		.history-list{
+			background: rgba(28, 79, 130, 0.03) !important;			
+		}
+		.history-list li:hover{
+			background: rgba(28, 79, 130, 0.05) !important;			
+		}
+
+		/* form */
+		.form-container .active .input-append, 
+		.active input[type="text"] {
+			color: rgba(28, 79, 130, 1);
+		}
+		input[type="text"]:focus, 
+		input[type="email"]:focus, 
+		textarea:focus {
+			border-color: rgba(28, 79, 130, 1);
+		}
+
+		/* result */
+		.result-container{
+			background: rgba(28, 79, 130, 0.03);
+		}
+
+
+		/*
+		 * Button
+		 */
+
+
+		.main-btn {
+			background: rgba(44, 159, 66, 0.9);
+		}
+		.main-btn:hover {
+			background: rgba(44, 159, 66, 1);
+		}
+
+	</style>
+
+  
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Cvvb0H2AUox5k0ZsIKp4RhpxyyirFvlLu3zrMmwNYy89lqKmgXJPWsti7Wd+JRERTxTpJ7KRhs2rbjTki3UajQ==" />
+  <meta name="cmsmagazine" content="1f3bebfc0802a755d31b57917478f0ca" />  
+	  <meta name='yandex-verification' content='75259a6e6f2a602a' />
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(30735988, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        trackHash:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/30735988" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6374999328870207",
+    enable_page_level_ads: true
+  });
+</script>
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2942727", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=2942727;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,150))+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<meta name="wot-verification" content="5908e58c8b0b8313d452"/>
+
+<meta name="verify-admitad" content="d7f643e278" />
+
+<meta name="yandex-verification" content="75259a6e6f2a602a" />
+
+<script data-ad-client="ca-pub-8807185264627954" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+</head>
+<body>
+
+<div class="app-wrap">
+  <div id="app">
+		<div class="app-preloader">
+			<svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+			  <circle class="path" fill="none" stroke-width="5" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+			</svg>  	
+		</div>
+  </div>
+  <div class="offline-pane hidden js-offline-pane">
+  	<i class="offline-pane-icon icon-budicon-471"></i>
+  	<p class="offline-pane-text">Отсутствет подключение к интеренту</p>
+  </div>
+</div>
+<div>
+	<input type="hidden" id="client_ip" value="92.47.153.198"/>
+		<input type="hidden" id="partner_logo" value="" />
+</div>
+
+
+<div id="quiz-container"></div>
+
+<script src="/assets/application-894c18f6c3c529dd9a02b400ac905b8e41b57f5d8f73c125a16a873ac20f512d.js"></script>
+
+<script>
+  MC.Utils.ImagePreloader.preloadAll();
+</script>
+
+	<script type="text/javascript">		
+		MC.Config.setMode('partner');
+		MC.Config.setWidgetType('standart');
+		MC.Config.setSourceType('');
+		MC.Config.isDev = false;		
+		MC.Config.downloadAppLink	= "https://storage.yandexcloud.net/sw01-metal-calculator/releases/windows/32/MetalCalculatorSetup.exe";
+			if(window.innerWidth < 700) {
+				MC.Config.setWidgetType('compact');
+			} else if(window.innerWidth < 900) {
+				MC.Config.setWidgetType('medium');
+			}
+			MC.Config.setPartnerType('type_2');
+	</script>
+
+
+
+</body>
+</html>
